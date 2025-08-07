@@ -1,0 +1,577 @@
+{
+ "charts": [
+  {
+   "chart_name": "Student Enrollment Trends",
+   "label": "Student Enrollment Trends",
+   "chart_type": "Line",
+   "document_type": "Program Enrollment",
+   "based_on": "creation",
+   "type": "Count",
+   "timeseries": 1,
+   "time_interval": "Monthly",
+   "timespan": "Last Year",
+   "color": "#4A90E2"
+  },
+  {
+   "chart_name": "Fee Collection Status",
+   "label": "Fee Collection Status",
+   "chart_type": "Donut",
+   "document_type": "Fees",
+   "group_by_type": "Aggregate",
+   "aggregate_function_based_on": "outstanding_amount",
+   "number_of_groups": 5,
+   "color": "#7CD197"
+  }
+ ],
+ "content": "[{\"id\":\"header_main\",\"type\":\"header\",\"data\":{\"text\":\"<div style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; margin: -20px -20px 20px -20px;'><h1 style='color: white; margin: 0; font-size: 32px; font-weight: 700;'>🎓 Digi-Campus</h1><p style='color: rgba(255,255,255,0.9); margin: 10px 0 0 0; font-size: 16px;'>Comprehensive Education & Admission Management System</p></div>\",\"col\":12}},{\"id\":\"stats_row\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Students\",\"col\":3}},{\"id\":\"stats_row2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Programs\",\"col\":3}},{\"id\":\"stats_row3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Applications\",\"col\":3}},{\"id\":\"stats_row4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Attendance\",\"col\":3}},{\"id\":\"quick_access\",\"type\":\"header\",\"data\":{\"text\":\"<h3 style='color: #2c3e50; border-bottom: 3px solid #667eea; padding-bottom: 10px; margin: 30px 0 20px 0;'>⚡ Quick Actions</h3>\",\"col\":12}},{\"id\":\"new_admission\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Admission\",\"col\":3}},{\"id\":\"mark_attendance\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mark Attendance\",\"col\":3}},{\"id\":\"fee_collection\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fee Collection\",\"col\":3}},{\"id\":\"generate_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Generate Reports\",\"col\":3}},{\"id\":\"admin_sections\",\"type\":\"header\",\"data\":{\"text\":\"<h3 style='color: #2c3e50; border-bottom: 3px solid #764ba2; padding-bottom: 10px; margin: 30px 0 20px 0;'>🏛️ Administration Hub</h3>\",\"col\":12}},{\"id\":\"admission_mgmt\",\"type\":\"card\",\"data\":{\"card_name\":\"Admission Management\",\"col\":4}},{\"id\":\"student_mgmt\",\"type\":\"card\",\"data\":{\"card_name\":\"Student Management\",\"col\":4}},{\"id\":\"academic_mgmt\",\"type\":\"card\",\"data\":{\"card_name\":\"Academic Management\",\"col\":4}},{\"id\":\"fee_mgmt\",\"type\":\"card\",\"data\":{\"card_name\":\"Fee Management\",\"col\":4}},{\"id\":\"attendance_mgmt\",\"type\":\"card\",\"data\":{\"card_name\":\"Attendance System\",\"col\":4}},{\"id\":\"assessment_mgmt\",\"type\":\"card\",\"data\":{\"card_name\":\"Assessment & Grading\",\"col\":4}},{\"id\":\"charts_section\",\"type\":\"header\",\"data\":{\"text\":\"<h3 style='color: #2c3e50; border-bottom: 3px solid #4A90E2; padding-bottom: 10px; margin: 30px 0 20px 0;'>📊 Analytics Dashboard</h3>\",\"col\":12}},{\"id\":\"enrollment_chart\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Student Enrollment Trends\",\"col\":6}},{\"id\":\"fee_chart\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Fee Collection Status\",\"col\":6}},{\"id\":\"reports_section\",\"type\":\"header\",\"data\":{\"text\":\"<h3 style='color: #2c3e50; border-bottom: 3px solid #7CD197; padding-bottom: 10px; margin: 30px 0 20px 0;'>📋 Quick Reports</h3>\",\"col\":12}},{\"id\":\"reports_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports & Analytics\",\"col\":6}},{\"id\":\"tools_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Administrative Tools\",\"col\":6}}]",
+ "creation": "2025-01-07 12:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "education",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Digi-Campus",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Admission Management",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Applications",
+   "link_count": 0,
+   "link_to": "Student Applicant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Admission Portal",
+   "link_count": 0,
+   "link_to": "Student Admission",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program Enrollment",
+   "link_count": 0,
+   "link_to": "Program Enrollment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Course Enrollment",
+   "link_count": 0,
+   "link_to": "Course Enrollment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Management",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Records",
+   "link_count": 0,
+   "link_to": "Student",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Groups",
+   "link_count": 0,
+   "link_to": "Student Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Guardian Information",
+   "link_count": 0,
+   "link_to": "Guardian",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Categories",
+   "link_count": 0,
+   "link_to": "Student Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Academic Management",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Programs",
+   "link_count": 0,
+   "link_to": "Program",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Courses",
+   "link_count": 0,
+   "link_to": "Course",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Instructors",
+   "link_count": 0,
+   "link_to": "Instructor",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Academic Terms",
+   "link_count": 0,
+   "link_to": "Academic Term",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Course Schedule",
+   "link_count": 0,
+   "link_to": "Course Schedule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fee Management",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fee Structure",
+   "link_count": 0,
+   "link_to": "Fee Structure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fee Schedule",
+   "link_count": 0,
+   "link_to": "Fee Schedule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fee Collection",
+   "link_count": 0,
+   "link_to": "Fees",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoices",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance System",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Attendance",
+   "link_count": 0,
+   "link_to": "Student Attendance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance Tool",
+   "link_count": 0,
+   "link_to": "Student Attendance Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Student Attendance",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Monthly Attendance Sheet",
+   "link_count": 0,
+   "link_to": "Student Monthly Attendance Sheet",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Student Attendance",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Absent Student Report",
+   "link_count": 0,
+   "link_to": "Absent Student Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment & Grading",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Plans",
+   "link_count": 0,
+   "link_to": "Assessment Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Results",
+   "link_count": 0,
+   "link_to": "Assessment Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Grading Scale",
+   "link_count": 0,
+   "link_to": "Grading Scale",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Assessment Result",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Final Grades Report",
+   "link_count": 0,
+   "link_to": "Final Assessment Grades",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports & Analytics",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "Fees",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Fee Collection Report",
+   "link_count": 0,
+   "link_to": "Student Fee Collection",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Program Enrollment",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Contact Details Report",
+   "link_count": 0,
+   "link_to": "Student and Guardian Contact Details",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Assessment Plan",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Assessment Status",
+   "link_count": 0,
+   "link_to": "Assessment Plan Status",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report Generation Tool",
+   "link_count": 0,
+   "link_to": "Student Report Generation Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Administrative Tools",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Group Creation",
+   "link_count": 0,
+   "link_to": "Student Group Creation Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program Enrollment Tool",
+   "link_count": 0,
+   "link_to": "Program Enrollment Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Course Scheduling Tool",
+   "link_count": 0,
+   "link_to": "Course Scheduling Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Result Tool",
+   "link_count": 0,
+   "link_to": "Assessment Result Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Education Settings",
+   "link_count": 0,
+   "link_to": "Education Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-01-07 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Education",
+ "name": "Digi-Campus",
+ "number_cards": [
+  {
+   "aggregate_function_based_on": "",
+   "color": "#4A90E2",
+   "document_type": "Student",
+   "filters_json": "{\"enabled\":1}",
+   "function": "Count",
+   "is_public": 1,
+   "label": "Total Students",
+   "name": "Total Students",
+   "show_percentage_stats": 1,
+   "stats_time_interval": "Monthly",
+   "type": "Document Type"
+  },
+  {
+   "aggregate_function_based_on": "",
+   "color": "#7CD197",
+   "document_type": "Program",
+   "filters_json": "{}",
+   "function": "Count",
+   "is_public": 1,
+   "label": "Active Programs",
+   "name": "Active Programs",
+   "show_percentage_stats": 0,
+   "stats_time_interval": "Monthly",
+   "type": "Document Type"
+  },
+  {
+   "aggregate_function_based_on": "",
+   "color": "#FF9F40",
+   "document_type": "Student Applicant",
+   "filters_json": "{\"application_status\":\"Applied\"}",
+   "function": "Count",
+   "is_public": 1,
+   "label": "Pending Applications",
+   "name": "Pending Applications",
+   "show_percentage_stats": 1,
+   "stats_time_interval": "Daily",
+   "type": "Document Type"
+  },
+  {
+   "aggregate_function_based_on": "",
+   "color": "#764BA2",
+   "document_type": "Student Attendance",
+   "filters_json": "{\"date\":[\"today\"]}",
+   "function": "Count",
+   "is_public": 1,
+   "label": "Today's Attendance",
+   "name": "Today's Attendance",
+   "show_percentage_stats": 0,
+   "stats_time_interval": "Daily",
+   "type": "Document Type"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "#667EEA",
+   "format": "",
+   "icon": "fa fa-user-plus",
+   "label": "New Admission",
+   "link_to": "Student Applicant",
+   "type": "DocType"
+  },
+  {
+   "color": "#764BA2",
+   "format": "",
+   "icon": "fa fa-calendar-check",
+   "label": "Mark Attendance",
+   "link_to": "Student Attendance Tool",
+   "type": "DocType"
+  },
+  {
+   "color": "#7CD197",
+   "format": "",
+   "icon": "fa fa-dollar-sign",
+   "label": "Fee Collection",
+   "link_to": "Fees",
+   "type": "DocType"
+  },
+  {
+   "color": "#FF9F40",
+   "format": "",
+   "icon": "fa fa-file-alt",
+   "label": "Generate Reports",
+   "link_to": "Student Report Generation Tool",
+   "type": "DocType"
+  }
+ ],
+ "title": "Digi-Campus"
+}
